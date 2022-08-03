@@ -6,8 +6,8 @@
         <v-list-item v-for="u in users.users" :key="u.id">
           <v-list-item-content>
             <v-list-item-title>
+              {{u.name}}
             </v-list-item-title>
-           
           </v-list-item-content>
           <v-list-item-icon>
             <v-icon :color="u.id === user.id ? 'deep-purple accent-4' : 'grey'">
