@@ -9,7 +9,7 @@ import SocketIO from 'socket.io-client'
 Vue.config.productionTip = false
 
 
-const options = {path: ''}
+const options = {path: '', transports: ['websocket']}
 
 Vue.use(new VueSocketIO({
   debug: true,
