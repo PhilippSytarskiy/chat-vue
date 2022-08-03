@@ -13,7 +13,7 @@ const options = {path: ''}
 
 Vue.use(new VueSocketIO({
   debug: true,
-  connection: SocketIO('https://chat-serverrrrrrrrr.herokuapp.com/:3000', options),
+  connection: SocketIO('https://chat-serverrrrrrrrr.herokuapp.com/', options),
   vuex: {
     store,
     actionPrefix: 'SOCKET_',
