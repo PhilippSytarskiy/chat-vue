@@ -11,7 +11,7 @@
           </v-list-item-content>
           <v-list-item-icon>
             <v-icon :color="u.id === user.id ? 'deep-purple accent-4' : 'grey'">
-              mdi-message-outline
+              mdi-account
             </v-icon>
           </v-list-item-icon>
         </v-list-item>
