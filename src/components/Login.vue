@@ -15,7 +15,7 @@
             <v-btn
               :disabled="!valid"
               color="success"
-              class="mr-4"
+              class="mr-4 mt-2"
               @click="auth"
             >
               Войти
