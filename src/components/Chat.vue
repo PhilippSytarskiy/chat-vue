@@ -32,7 +32,6 @@
       <!-- Provides the application the proper gutter -->
       <div class="wrap-chat">
         <div class="chat-messages" ref="blockMessages">
-          {{ messages }}
           <Message
             v-for="m in messages"
             :key="m.text"
